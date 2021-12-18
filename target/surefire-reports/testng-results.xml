@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-15T13:23:59 IST" name="Suite" finished-at="2021-12-15T13:24:58 IST" duration-ms="59025">
+    <groups>
+    </groups>
+    <test started-at="2021-12-15T13:23:59 IST" name="ValidateLoginTest" finished-at="2021-12-15T13:24:24 IST" duration-ms="25125">
+      <class name="JKE2EProjectTests.LoginPageTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:JKE2EProjectTests.LoginPageTest@7048f722]" started-at="2021-12-15T13:23:59 IST" name="initialize" finished-at="2021-12-15T13:24:08 IST" duration-ms="9032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:JKE2EProjectTests.LoginPageTest@7048f722]" started-at="2021-12-15T13:24:08 IST" name="LoginTest" description="Verify logging in with two different users" data-provider="getData" finished-at="2021-12-15T13:24:17 IST" duration-ms="9790" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourstore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SuperAdmin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:JKE2EProjectTests.LoginPageTest@7048f722]" started-at="2021-12-15T13:24:17 IST" name="LoginTest" description="Verify logging in with two different users" data-provider="getData" finished-at="2021-12-15T13:24:24 IST" duration-ms="6161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ADMIN@YOURSTORE.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:JKE2EProjectTests.LoginPageTest@7048f722]" started-at="2021-12-15T13:24:24 IST" name="teardown" finished-at="2021-12-15T13:24:24 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- JKE2EProjectTests.LoginPageTest -->
+    </test> <!-- ValidateLoginTest -->
+    <test started-at="2021-12-15T13:24:24 IST" name="ValidateHomePage" finished-at="2021-12-15T13:24:39 IST" duration-ms="15075">
+      <class name="JKE2EProjectTests.HomePageTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:JKE2EProjectTests.HomePageTest@610db97e]" started-at="2021-12-15T13:24:24 IST" name="initialize" finished-at="2021-12-15T13:24:30 IST" duration-ms="5906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="HomeTest()[pri:0, instance:JKE2EProjectTests.HomePageTest@610db97e]" started-at="2021-12-15T13:24:30 IST" name="HomeTest" description="Verify all the side menu items are displayed" finished-at="2021-12-15T13:24:39 IST" duration-ms="9087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:JKE2EProjectTests.HomePageTest@610db97e]" started-at="2021-12-15T13:24:39 IST" name="teardown" finished-at="2021-12-15T13:24:39 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- JKE2EProjectTests.HomePageTest -->
+    </test> <!-- ValidateHomePage -->
+    <test started-at="2021-12-15T13:24:39 IST" name="ValidateCustomerPage" finished-at="2021-12-15T13:24:58 IST" duration-ms="18243">
+      <class name="JKE2EProjectTests.CustomerPageTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:JKE2EProjectTests.CustomerPageTest@7bd69e82]" started-at="2021-12-15T13:24:39 IST" name="initialize" finished-at="2021-12-15T13:24:49 IST" duration-ms="10183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="CustomerPageSearchEmailTest()[pri:0, instance:JKE2EProjectTests.CustomerPageTest@7bd69e82]" started-at="2021-12-15T13:24:49 IST" name="CustomerPageSearchEmailTest" description="Verify searching of customers using Email ID" finished-at="2021-12-15T13:24:55 IST" duration-ms="5139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerPageSearchEmailTest -->
+        <test-method signature="CustomerPageSearchFirstNameTest()[pri:0, instance:JKE2EProjectTests.CustomerPageTest@7bd69e82]" started-at="2021-12-15T13:24:55 IST" name="CustomerPageSearchFirstNameTest" description="Verify searching of customers using First Name" finished-at="2021-12-15T13:24:57 IST" duration-ms="2869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerPageSearchFirstNameTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:JKE2EProjectTests.CustomerPageTest@7bd69e82]" started-at="2021-12-15T13:24:57 IST" name="teardown" finished-at="2021-12-15T13:24:58 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- JKE2EProjectTests.CustomerPageTest -->
+    </test> <!-- ValidateCustomerPage -->
+  </suite> <!-- Suite -->
+</testng-results>
